@@ -5,17 +5,6 @@
     <title>Why you need watch fate/zero?</title>
   
     <link rel="stylesheet" href="./main css/style.css">
-    <script>
-      function toggleMenuBtn(btn) {
-        btn.classList.toggle('active');
-        const label = btn.querySelector('.label');
-        if (btn.classList.contains('active')) {
-          label.textContent = 'CLOSE';
-        } else {
-          label.textContent = 'MENU';
-        }
-      }
-    </script>
   </head>
   <body>
     <div class="scroll-container">
@@ -23,7 +12,7 @@
       <div class="section main">
         <div class="container">
           <div class="left-btn-block">
-            <button class="menu-btn" onclick="toggleMenuBtn(this)">
+            <button class="menu-btn">
               <span class="lines">
                 <span class="line top"></span>
                 <span class="line bottom"></span>
@@ -43,39 +32,39 @@
               <div class="rectangles-group left">
                 <div class="rectangle-block">
                   <div class="rectangle large">
-                    <img src="pictures/Мастер 1.png" alt="Мастер 1" style="width:100%;height:100%;object-fit:cover;" data-modal-text="123123123" data-modal-image="modal/Modal 1.jpg">
+                    <img src="pictures/Мастер 1.png" alt="Мастер 1" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|--Tohsaka Tokiomi--| A mage to his very core. He will stop at nothing to obtain the Grail, so his lineage can reach the root of knowledge and unlock true magic." data-modal-image="modal/Modal 1.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block group-left">
                   <div class="rectangle large">
-                    <img src="pictures/Мастер 2.png" alt="Мастер 2" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Мастера 2" data-modal-image="modal/Modal 2.jpg">
+                    <img src="pictures/Мастер 2.png" alt="Мастер 2" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|--Waver Velvet--| A student at a magical academy. He's deemed a fool for believing a mage's strength comes from within, not their lineage. He has no interest in the Grail itself but seeks self-affirmation through victory in the war. ." data-modal-image="modal/Modal 2.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block group-center">
                   <div class="rectangle large">
-                    <img src="pictures/Мастер 3.png" alt="Мастер 3" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Мастера 3" data-modal-image="modal/Modal 3.jpg">
+                    <img src="pictures/Мастер 3.png" alt="Мастер 3" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|--Kirei Kotomine--| The Church Executioner. He spent most of his life honing himself and his profession. At one point, he questions why he does it all. He seeks answers through the Grail, hoping to find his pleasure and the meaning of life." data-modal-image="modal/Modal 3.jpg">
                   </div>
                 </div>
               </div>
               <div class="rectangle-block center">
                 <div class="rectangle large">
-                  <img src="pictures/Мастер 4.png" alt="Мастер 4" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Мастера 4" data-modal-image="modal/Modal 4.jpg">
+                  <img src="pictures/Мастер 4.png" alt="Мастер 4" style="width:100%;height:100%;object-fit:cover;" data-modal-text=  " |--Emiya Kiritsugu--| He dreams of being a hero of justice, but life thrusts him into a harsh reality. He is ruthless, willing to sacrifice the few to save the many, and aspires to save the world from wars with the power of the Grail." data-modal-image="modal/Modal 4.jpg">
                 </div>
               </div>
               <div class="rectangles-group right">
                 <div class="rectangle-block group-center">
                   <div class="rectangle large">
-                    <img src="pictures/Мастер 5.png" alt="Мастер 5" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Мастера 5" data-modal-image="modal/Modal 5.jpg">
+                    <img src="pictures/Мастер 5.png" alt="Мастер 5" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|--Kariya Matou--| Due to a mistake in his youth, he abandoned his family and gave up practicing magic. This led to the head of his family taking the daughter of his beloved woman. He seeks to bring the Grail to the family head to secure the girl's future and restore her freedom." data-modal-image="modal/Modal 5.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block group-right">
                   <div class="rectangle large">
-                    <img src="pictures/Мастер 6.png" alt="Мастер 6" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Мастера 6" data-modal-image="modal/Modal 6.jpg">
+                    <img src="pictures/Мастер 6.png" alt="Мастер 6" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|--Uryuu Ryuunosuke--| A psychopath whose hobby is killing people, deriving pleasure from it. He has no need for the Grail." data-modal-image="modal/Modal 6.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block">
                   <div class="rectangle large">
-                    <img src="pictures/Мастер 7.png" alt="Мастер 7" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Мастера 7" data-modal-image="modal/Modal 7.jpg">
+                    <img src="pictures/Мастер 7.png" alt="Мастер 7" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|--Archibald--| Through the Grail, he seeks to reach the root of knowledge and unlock true magic, aiming to establish his lineage as the most powerful." data-modal-image="modal/Modal 7.jpg">
                   </div>
                 </div>
               </div>
@@ -92,45 +81,53 @@
               <div class="rectangles-group left">
                 <div class="rectangle-block">
                   <div class="rectangle large">
-                    <img src="pictures/Слуга 1.jpg" alt="Слуга 1" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Слуги 1" data-modal-image="pictures/Слуга 1.jpg">
+                    <img src="pictures/Слуга 1.jpg" alt="Слуга 1" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|King of Heroes| Believes that the Grail already belongs to him. Therefore, he wants to return it. The miracle of the Grail is not needed" data-modal-image="pictures/Слуга 1.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block group-left">
                   <div class="rectangle large">
-                    <img src="pictures/Слуга 2.jpg" alt="Слуга 2" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Слуги 2" data-modal-image="pictures/Слуга 2.jpg">
+                    <img src="pictures/Слуга 2.jpg" alt="Слуга 2" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|The King of Conquerors| Due to his early death, he longs for the miracle of the Grail for the sake of rebirth in order to continue his conquests again." data-modal-image="pictures/Слуга 2.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block group-center">
                   <div class="rectangle large">
-                    <img src="pictures/Слуга 3.jpg" alt="Слуга 3" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Слуги 3" data-modal-image="pictures/Слуга 3.jpg">
+                    <img src="pictures/Слуга 3.jpg" alt="Слуга 3" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|One hundred Personas| An almost weak-willed puppet whose desire is to bring the Grail to his master" data-modal-image="pictures/Слуга 3.jpg">
                   </div>
                 </div>
               </div>
               <div class="rectangle-block center">
                 <div class="rectangle large">
-                  <img src="pictures/Слуга 4.jpg" alt="Слуга 4" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Слуги 4" data-modal-image="pictures/Слуга 4.jpg">
+                  <img src="pictures/Слуга 4.jpg" alt="Слуга 4" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|King of Knights| The perfect ruler of a kingdom whose fate was to fall. She longs for the miracle of the Grail to rewrite history and save her kingdom. " data-modal-image="pictures/Слуга 4.jpg">
                 </div>
               </div>
               <div class="rectangles-group right">
                 <div class="rectangle-block group-center">
                   <div class="rectangle large">
-                    <img src="pictures/Слуга 5.jpg" alt="Слуга 5" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Слуги 5" data-modal-image="pictures/Слуга 5.jpg">
+                    <img src="pictures/Слуга 5.jpg" alt="Слуга 5" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|Knight of The Lake| He dreams revenge to his king. The miracle of the Grail is not needed " data-modal-image="pictures/Слуга 5.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block group-right">
                   <div class="rectangle large">
-                    <img src="pictures/Слуга 6.jpg" alt="Слуга 6" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Слуги 6" data-modal-image="pictures/Слуга 6.jpg">
+                    <img src="pictures/Слуга 6.jpg" alt="Слуга 6" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|Blue Beard| During his lifetime, his beloved woman was killed dishonestly and cruelly, after which he fell into madness. Longs for the miracle of the Grail to resurrect her" data-modal-image="pictures/Слуга 6.jpg">
                   </div>
                 </div>
                 <div class="rectangle-block">
                   <div class="rectangle large">
-                    <img src="pictures/Слуга 7.jpg" alt="Слуга 7" style="width:100%;height:100%;object-fit:cover;" data-modal-text="Текст для Слуги 7" data-modal-image="pictures/Слуга 7.jpg">
+                    <img src="pictures/Слуга 7.jpg" alt="Слуга 7" style="width:100%;height:100%;object-fit:cover;" data-modal-text="|Knight of Fianne| During his lifetime, he betrayed his king. He is consumed by guilt, so his only desire is to be completely devoted to his master at least once in his life. The miracle of the Grail is not needed" data-modal-image="pictures/Слуга 7.jpg">
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    
+    <!-- Мнюшечки меню -->
+    <div id="menuOverlay" class="menu-overlay">
+      <div class="menu-content">
+        <button class="menu-item" id="feedbackBtn">Обратная связь</button>
+        <button class="menu-item" id="historyBtn">История</button>
       </div>
     </div>
     
@@ -149,52 +146,120 @@
       </div>
     </div>
 
+    <!-- История модал окошко -->
+    <div id="historyModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button history-close">&times;</span>
+        <div class="modal-flex-container">
+          <div class="modal-text-container">
+            <div id="historyText" class="history-text">
+              The story of Fate/Zero begins with three mage families - Tohsaka, Einzbern, and Matou - joining forces to create the Holy Grail, which can grant any wish. However, they discovered that the Grail was cursed and became a source of evil.
+
+              To purify the Grail, they created the Holy Grail War system, where seven mages (Masters) summon seven legendary heroes (Servants) to battle for the right to possess the Grail.
+
+              In Fate/Zero, we witness the Fourth Holy Grail War, which takes place 10 years before the events of Fate/stay night. This war involves characters such as Emiya Kiritsugu, Kirei Kotomine, Tohsaka Tokiomi, and others, each with their own goals and desires.
+
+              The war leads to tragic consequences, including the Fuyuki fire that claimed many lives. This event is directly connected to the beginning of the Fate/stay night story.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script>
-      // Модальное окно
-      const modal = document.getElementById('myModal');
-      const closeButton = document.querySelector('.close-button');
-      const modalImage = document.getElementById('modalImage');
-      const modalText = document.getElementById('modalText');
-      const rectangles = document.querySelectorAll('.rectangle.large');
+      document.addEventListener('DOMContentLoaded', function() {
+        function toggleMenuBtn(btn) {
+          btn.classList.toggle('active');
+          const label = btn.querySelector('.label');
+          const menuOverlay = document.getElementById('menuOverlay');
+          
+          if (btn.classList.contains('active')) {
+            label.textContent = 'CLOSE';
+            menuOverlay.style.display = 'flex';
+          } else {
+            label.textContent = 'MENU';
+            menuOverlay.style.display = 'none';
+          }
+        }
 
-      rectangles.forEach(rectangle => {
-        rectangle.addEventListener('click', function(event) {
-          const imgElement = rectangle.querySelector('img');
-          if (imgElement) {
-            const imageSrc = imgElement.getAttribute('data-modal-image');
-            const textContent = imgElement.getAttribute('data-modal-text');
+        const menuBtn = document.querySelector('.menu-btn');
+        menuBtn.addEventListener('click', function() {
+          toggleMenuBtn(this);
+        });
 
-            modalImage.src = imageSrc;
-            modalText.textContent = textContent;
-            modal.style.display = 'flex';
+        document.getElementById('menuOverlay').addEventListener('click', function(event) {
+          if (event.target === this) {
+            const menuBtn = document.querySelector('.menu-btn');
+            menuBtn.classList.remove('active');
+            menuBtn.querySelector('.label').textContent = 'MENU';
+            this.style.display = 'none';
           }
         });
-      });
 
-      closeButton.addEventListener('click', function() {
-        modal.style.display = 'none';
-      });
+        document.getElementById('feedbackBtn').addEventListener('click', function() {
+          console.log('Feedback button clicked');
+        });
 
-      window.addEventListener('click', function(event) {
-        if (event.target == modal) {
+        document.getElementById('historyBtn').addEventListener('click', function() {
+          const historyModal = document.getElementById('historyModal');
+          const menuOverlay = document.getElementById('menuOverlay');
+          const menuBtn = document.querySelector('.menu-btn');
+          
+          menuOverlay.style.display = 'none';
+          menuBtn.classList.remove('active');
+          menuBtn.querySelector('.label').textContent = 'MENU';
+          
+          historyModal.style.display = 'flex';
+        });
+
+        document.querySelector('.history-close').addEventListener('click', function() {
+          document.getElementById('historyModal').style.display = 'none';
+        });
+
+        window.addEventListener('click', function(event) {
+          const historyModal = document.getElementById('historyModal');
+          if (event.target === historyModal) {
+            historyModal.style.display = 'none';
+          }
+        });
+
+        // Модальное окно
+        const modal = document.getElementById('myModal');
+        const closeButton = document.querySelector('.close-button');
+        const modalImage = document.getElementById('modalImage');
+        const modalText = document.getElementById('modalText');
+        const rectangles = document.querySelectorAll('.rectangle.large');
+
+        rectangles.forEach(rectangle => {
+          rectangle.addEventListener('click', function(event) {
+            const imgElement = rectangle.querySelector('img');
+            if (imgElement) {
+              const imageSrc = imgElement.getAttribute('data-modal-image');
+              const textContent = imgElement.getAttribute('data-modal-text');
+
+              modalImage.src = imageSrc;
+              modalText.textContent = textContent;
+              modal.style.display = 'flex';
+            }
+          });
+        });
+
+        closeButton.addEventListener('click', function() {
           modal.style.display = 'none';
-        }
-      });
+        });
 
-      // --- Навигация ---
-      document.addEventListener('DOMContentLoaded', function() {
+        window.addEventListener('click', function(event) {
+          if (event.target == modal) {
+            modal.style.display = 'none';
+          }
+        });
+
+        // --- Навигация ---
         const mastersBtn = document.getElementById('mastersBtn');
         const servantsBtn = document.getElementById('servantsBtn');
         const scrollContainer = document.querySelector('.scroll-container');
         const mainSection = document.querySelector('.section.main');
         const secondSection = document.querySelector('.section.second-page');
-
-        // Проверяем, чтобы всё воркало
-        console.log('Masters button:', mastersBtn);
-        console.log('Servants button:', servantsBtn);
-        console.log('Scroll container:', scrollContainer);
-        console.log('Main section:', mainSection);
-        console.log('Second section:', secondSection);
 
         // Переход на первую страницу (Мастера)
         mastersBtn.addEventListener('click', function() {

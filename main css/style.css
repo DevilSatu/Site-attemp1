@@ -521,3 +521,55 @@ body {
   position: relative;
   z-index: 2;
 }
+
+/* Меню меню */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu-item {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 36px;
+  padding: 15px 40px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 2px 2px #000, 0 0 2px #0ff, 0 0 2px #ff0, 0 0 2px #f0f;
+}
+
+.menu-item:hover {
+  background: #f44336;
+  transform: scale(1.05);
+}
+
+/* История модал окошко */
+.history-text {
+  width: 100%;
+  height: 300px;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  text-shadow: 0 2px 2px #000, 0 0 2px #0ff, 0 0 2px #ff0, 0 0 2px #f0f;
+  line-height: 1.6;
+  overflow-y: auto;
+  white-space: pre-line;
+}
