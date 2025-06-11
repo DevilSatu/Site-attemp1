@@ -573,3 +573,177 @@ body {
   overflow-y: auto;
   white-space: pre-line;
 }
+
+/* Адаптивный дизайн */
+@media screen and (max-width: 1200px) {
+  .rectangles-row-wrapper {
+    padding: 0 20px;
+    gap: 10px;
+  }
+  
+  .rectangle.large {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .right-btn {
+    font-size: 36px;
+  }
+  
+  .right-btn.small {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .rectangles-row-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .rectangles-group {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .rectangle-block.center {
+    margin: 20px 0;
+  }
+  
+  .center-img-block {
+    width: 300px;
+  }
+  
+  .right-btns-block {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .left-btn-block {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .menu-btn .lines {
+    width: 40px;
+    height: 30px;
+  }
+  
+  .menu-btn .label {
+    font-size: 20px;
+  }
+  
+  .center-img-block {
+    width: 250px;
+    height: 100px;
+  }
+  
+  .right-btns-block {
+    width: 200px;
+  }
+  
+  .right-btn {
+    font-size: 28px;
+  }
+  
+  .right-btn.small {
+    font-size: 22px;
+  }
+  
+  .rectangle.large {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .modal-content {
+    width: 90%;
+    max-width: none;
+  }
+  
+  .modal-flex-container {
+    flex-direction: column;
+  }
+  
+  .modal-image-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .modal-text-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .left-btn-block {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .menu-btn .lines {
+    width: 30px;
+    height: 20px;
+  }
+  
+  .menu-btn .label {
+    font-size: 16px;
+  }
+  
+  .center-img-block {
+    width: 200px;
+    height: 80px;
+  }
+  
+  .right-btns-block {
+    width: 150px;
+  }
+  
+  .right-btn {
+    font-size: 24px;
+  }
+  
+  .right-btn.small {
+    font-size: 18px;
+  }
+  
+  .rectangle.large {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .masters-container,
+  .servants-container {
+    width: 95%;
+  }
+  
+  .rectangles-row-wrapper {
+    padding: 0 10px;
+  }
+  
+  .menu-content {
+    width: 80%;
+  }
+  
+  .menu-item {
+    font-size: 20px;
+  }
+  
+  #modalText {
+    font-size: 16px;
+  }
+}
+
+/* Исправление для iOS Safari проблемы с 100vh */
+@supports (-webkit-touch-callout: none) {
+  .scroll-container,
+  .section {
+    height: -webkit-fill-available;
+  }
+}
